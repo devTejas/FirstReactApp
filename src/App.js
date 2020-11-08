@@ -14,6 +14,7 @@ function App() {
       <br />
       CounterHooks
       <CounterHooks initialCount={0} />
+      <br />
       <button onClick={() => setTheme(prevTheme => {
         console.log(prevTheme, theme);
         return prevTheme === 'red' ? 'blue' : 'red';
