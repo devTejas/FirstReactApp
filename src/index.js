@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
+import App1 from './App1';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -9,6 +9,13 @@ ReactDOM.render(
     <App />
   </React.StrictMode>,
   document.getElementById('root')
+);
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App1 />
+  </React.StrictMode>,
+  document.getElementById('root-1')
 );
 
 // If you want to start measuring performance in your app, pass a function
